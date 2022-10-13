@@ -172,8 +172,9 @@ def historic_binance(symbol,start,interval, end=None ):
     df['Open_Time'] = pd.to_datetime(df['Open_Time'],unit = 'ms' )
     df['Close_Time'] = pd.to_datetime(df['Close_Time'],unit = 'ms' )
     filename = symbol + '_' + interval + '.csv'
-    print(f'Saving {symbol} csv file')
-    print(df.head(10))
+    #print(f'Saving {symbol} csv file')
+    #print(df.head(10))
+    return df
     #df.to_csv(filename)
     #return filename
 symbol = "TRXUSDT"
