@@ -10,7 +10,7 @@ no sera util este.
 """
 from datetime import timedelta, datetime
 import pandas as pd
-from Datasets import historical
+#from Datasets import historical
 from Proyecciones_estocasticas import movimiento_browniano, movimiento_geometrico
 import numpy as np
 from math import log
